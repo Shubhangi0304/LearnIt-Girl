@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <HorizontalScrollView
+            android:id="@+id/1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NAME :"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Author"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Author :"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Owner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Owner :"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Available"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Available :"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:id="@+id/2"
+            android:layout_width="302dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Name1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NAME"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Author1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Author"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Owner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Owner"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Available1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes/No"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal">
+
+        <HorizontalScrollView
+            android:id="@+id/1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NAME :"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Author"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Author :"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Owner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Owner :"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Available"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Available :"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:id="@+id/2"
+            android:layout_width="302dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Name1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NAME"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Author1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Author"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Owner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Owner"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Available1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes/No"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:orientation="horizontal">
+
+        <HorizontalScrollView
+            android:id="@+id/1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NAME :"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Author"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Author :"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Owner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Owner :"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Available"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Available :"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:id="@+id/2"
+            android:layout_width="302dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Name1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NAME"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Author1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Author"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Owner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Owner"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/Available1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes/No"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_below="@id/3"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+    </LinearLayout>
+
+</RelativeLayout>

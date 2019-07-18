@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    >
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/UserN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Name"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UserN"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:hint="Email Id"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/Pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Email"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/ConfPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Pass"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ConfPass"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="135dp"
+        android:text="Create Account" />
+
+    <TextView
+        android:id="@+id/Heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="144dp"
+        android:text="Sign Up"
+        android:textSize="36sp" />
+
+</RelativeLayout>

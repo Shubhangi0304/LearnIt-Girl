@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="129dp"
+        android:paddingTop="16dp"
+        android:text="Welcome !"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Username"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Password"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="162dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Login"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="161dp"
+        android:text="SIgn Up" />
+
+</RelativeLayout>
